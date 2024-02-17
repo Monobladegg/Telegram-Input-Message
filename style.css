@@ -1,0 +1,68 @@
+* {
+  font-family: Onyx;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #5e5e5e;
+  margin: 0;
+}
+input {
+  margin: 30px;
+  height: 50px;
+  width: 600px;
+  border-radius: 10px;
+  background-color: rgb(35,35,35);
+  padding-left: 10px;
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+button {
+  position: absolute;
+  border: none;
+  background-color: rgb(35,35,35);
+  width: 45px;
+  height: 45px;
+  border-radius: 1000px;
+  margin-top: -77.5px;
+  margin-left: 640px;
+
+  cursor: pointer;
+}
+.position {
+  padding-right: 5px;
+}
+.inline {
+  display: inline;
+}
+.message {
+  margin: -20px 30px;
+  margin-bottom: 10px;
+}
+input {
+  color: #ffffff;
+}
+.message-js {
+  color: #ffffff;
+  display: block;
+  width: max-content;
+  background-color: rgb(35,35,35);
+  padding: 10px;
+  border-radius: 8px;
+} 
+.alert {
+  width: max-content;
+  height: max-content;
+  background-color: rgb(35,35,35);
+  margin-left: 1000px;
+  margin-top: -80px;
+  color: #ffffff;
+  padding: 0.7px 10px;
+  border-radius: 15px;
+}
+.hr {
+  margin-top: -20px;
+}
